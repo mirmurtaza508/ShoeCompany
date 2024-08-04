@@ -1,0 +1,49 @@
+.label_check {
+    display: none;
+  }
+  
+  .hamburger_label {
+    width: 70px;
+    height: 58px;
+    display: block;
+    cursor: pointer;
+    
+  }
+  
+  .hamburger_label div {
+       width: 2.5rem;
+       height: 2px;
+       /* height: 6px; */
+    background-color: #fff;
+    position: absolute;
+  }
+  
+  .line1 {
+    transition: all .3s;
+  }
+  
+  .line2 {
+    margin: 14px 0 0 0;
+    transition: 0.3s;
+  }
+  
+  .line3 {
+    margin: 29px 0 0 0;
+    transition: 0.3s;
+  }
+  
+  #label_check:checked + .hamburger_label .line1 {
+    transform: rotate(35deg) scaleX(.55) translate(39px, -4.5px);
+    border-radius: 50px 50px 50px 0;
+  }
+  
+  #label_check:checked + .hamburger_label .line3 {
+    transform: rotate(-35deg) scaleX(.55) translate(39px, 4.5px);
+    border-radius: 0 50px 50px 50px;
+  }
+  
+  #label_check:checked + .hamburger_label .line2 {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 45px;
+  }
