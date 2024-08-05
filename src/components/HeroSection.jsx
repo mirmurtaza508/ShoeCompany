@@ -3,7 +3,7 @@ import React from "react";
 const HeroSection = () => {
   return (
     <div className="absolute top-0 z-10 flex h-full w-full flex-wrap bg-green-400 text-white">
-      <div className="md:bg-hero-color-2 h-1/2 w-full overflow-hidden bg-hero-pattern-2 brightness-50 md:h-full md:w-1/2"></div>
+      <div className="h-1/2 w-full overflow-hidden bg-hero-pattern-2 brightness-50 md:h-full md:w-1/2 md:bg-hero-color-2"></div>
       <div className="h-1/2 w-full bg-hero-pattern-1 bg-cover brightness-50 md:absolute md:right-0 md:h-full md:w-1/2"></div>
       <div className="absolute flex h-screen w-full flex-col items-center justify-evenly md:flex-row">
         <h1 className="mt-20 text-6xl font-semibold text-white md:text-7xl">

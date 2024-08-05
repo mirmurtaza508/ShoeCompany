@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      rotate: {
+        127: "127deg",
+      },
       spacing: {
         126: "500px",
         130: "766px",
