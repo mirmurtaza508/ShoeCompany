@@ -21,7 +21,7 @@ export default {
           "url('https://s3-alpha-sig.figma.com/img/d84c/0786/528c493b61d58bd198b9df3d0b21d429?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hEVJTnMPMq5mZ58q5zyZhE4qiHhxZBdKHS~HiIjCGs~Ox3LCOcc-YCZlR8XtBHMWHrm36NgF9l63HzxiPHDMrhQ2HpgV2gXOMY7Ivha3cs9o5p6Ojx8cgcugPQfDT1zhvwT63ipKqBLu8iu2O6swv3d~HU5DlBh6c5gGAEEEMvXXFTmRV7C3-J0FeRc0Qld748EuNzpXbN7R~peY8OkHNsbdUliv8KoYs1iIV0oTdzvyyyXkNMjLwrDrAB3dGg2piwPt3GxUlQL0AsY42A04gFFf4bJRVp9mHdAHLpun5pYoxfidTwbzozZvPGA4aeLMgK6SMIoSBkhngxSSttk~hg__')",
       },
       screens: {
-        media540: "560px",
+        media560: "560px",
         media440: "440px",
       },
     },

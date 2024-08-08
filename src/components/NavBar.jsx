@@ -6,7 +6,7 @@ export const NavBar = () => {
 
   console.log(isOpen);
   return (
-    <header className="section-container fixed left-[50%] z-10 mx-auto flex w-full -translate-x-[50%] px-4 text-white backdrop-blur-sm">
+    <header className="section-container fixed left-[50%] z-10 mx-auto flex w-full -translate-x-[50%] text-white backdrop-blur-sm">
       <nav className="flex h-full w-full items-center justify-between">
         <div className="relative">
           <img
