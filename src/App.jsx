@@ -6,16 +6,12 @@ import About from "./components/About";
 
 const App = () => {
   return (
-    <>
-      <main className="h-full w-full">
-        <div className="h-screen w-full">
-          <NavBar />
-          <HeroSection />
-        </div>
-        <HowItWorks />
-        <About />
-      </main>
-    </>
+    <main className="h-full w-full bg-black text-white">
+      <NavBar />
+      <HeroSection />
+      <HowItWorks />
+      {/* <About /> */}
+    </main>
   );
 };
 

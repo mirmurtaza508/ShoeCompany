@@ -1,60 +1,58 @@
 import React from "react";
-
+import shoeImg from "../assets/how-it-works.png";
+import arrowImg1 from "../assets/arrow-1.png";
+import arrowImg2 from "../assets/arrow-2.png";
+import arrowImg3 from "../assets/arrow-3.png";
 const HowItWorks = () => {
   return (
-    <div className="min-h-screen w-full bg-black p-4 text-white">
+    <section className="section-container w-full bg-black px-12 py-20 pb-24 text-white">
       <h1 className="mx-auto p-4 text-center text-2xl font-semibold md:w-126 md:text-4xl">
         Have they finally made the perfect workout shoe?
       </h1>
-      <div className="relative mt-40 flex items-center justify-center bg-black md:mt-0">
-        <div className="absolute -top-32 left-0 md:left-44 md:top-8">
-          <div className="relative left-10">
-            <h1 className="text-xl font-semibold">THE HEEL</h1>
-            <p className="text-xs">
-              The heel is well-built, has <br /> appropriate elevation and is{" "}
-              <br /> not too rigid.
-            </p>
-          </div>
-          <img
-            src="https://s3-alpha-sig.figma.com/img/a134/74ae/abc47ad166d1c5732008d90c1a2edbba?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lu9pPgh2Y4Qi8P2ASLUimZUg6pR7U5n4-lMYzIvgkgor3YkFngU7HB2VDqFiBMzAzQVKD1MccfRYp-1YpLccAE0~cCj9RLo2VqA~f30QxmLdrucvv7oiAEvQdzY1PCkfuzArZS9rCdPoJH5hJ4rI6hnLtDn2mApVbhzl4rNl~I4SHBcYAW3yhhUNZtSA7TSo9aYXZs0Hvd8najRVd81V4MtELzOKoFx6Aj3jjfOWnElOJp0rQx-YOT~uAdZ7YmJwga73EpTJ43B38Rud9WUUBrdoMax08UPHX4PntCXhqRpjShYfRTQXAoA6x-iDfkPvy3hvW49bMP68Bf5wgicPLQ__"
-            alt=""
-            className="absolute left-7 w-20 rotate-45 md:left-28 md:top-16 md:w-28 md:rotate-0"
-          />
-        </div>
+      <div className="relative mx-auto w-full max-w-xl pt-60 xl:pt-20">
         <img
-          src="https://s3-alpha-sig.figma.com/img/b0e8/3e6b/e703fafb3a8a3d3c53c33c5daa2974af?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=T~IZmLxoA~BDDiaKJSjQ5QVdVIUC5HIGmOmDDI3AC9xyg~gKX6OOxJBSWuSGQL48cqC2yYN2QZyW3bMKNmEhMo7fbIKMypVIUEL8DoUBwFhjV~Brdueiyj9xlNvrUlUoswekeqe0kVfTpkogW~wD~Bzn~XgysISCKIr14Ckx1l0Elpsi7NAtbDduMcnIsPcYoi1xYlASnzKXXYVqa2WeLk4q4-5cHeM~sa2z~ZT7w4ssLjGMuJu0OJCU8fqk1MSfSDSFviFY036J5U2tokvCPRq6e9fxzcsT2VD5GS6KD5u-hzD4lElsnclV~KzpIGx8mvE6vQ~WeLCijb7JesZwfQ__"
+          src={shoeImg}
           alt=""
-          className="w-60 md:w-126"
+          className="w-full rotate-6 p-12 md:p-0 xl:rotate-0"
         />
-        <div className="absolute -top-20 right-7 md:right-80 md:top-32">
-          <div className="relative left-10">
-            <h1 className="text-xl font-semibold">THE FRONT</h1>
-            <p className="text-xs">
-              The front is comfortable and <br /> adjusts well to the shape of{" "}
-              <br /> your foot.
-            </p>
-          </div>
+        <div className="absolute top-0 max-w-[200px] xl:ml-14 xl:max-w-sm xl:-translate-x-full">
+          <h3 className="font-bold xl:text-3xl">THE HEEL</h3>
+          <p className="media540:text-[1rem] text-xs xl:text-lg">
+            The heel is well-built, has appropriate elevation and is not too
+            rigid.
+          </p>
           <img
-            src="https://s3-alpha-sig.figma.com/img/a826/d5d5/9eab6feeca510275609785371af26741?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dOaZ7DqI-Nz~WUySkD2GuYgdwhUiVu~Wrual6HZ9MdopdDs3Wv6iHRGj4enP25brAzqd9IbeJ9wG6tyNI6lFvXDS6sDLDh~Ul3lFmJVEmeuy94vSB47tmqeco9H0zIDuYXF4rEQBGd48Vo4-D8qkYpBsqQmPwESAS9Fv7UVk0cYut5rUDEKkwuRWoOJD5M24M~jYKkWnrGAsvirwX3vhVnp3-pV0cGlOaKxehaTU9bUUrL14tHBHLU1HB4ZqCaJ43mx-rzYo~TkzksbQ9r~PcxSkUjx~Hn4FxJiNSTEtt-Wg7-s457FMWr-xxqyELAMRA-rq1bJ0W8THp~i3Km~7cA__"
+            src={arrowImg1}
             alt=""
-            className="rotate-127 absolute right-10 top-20 w-20 md:-top-9 md:right-24 md:w-28 md:rotate-0"
+            className="media540:max-w-36 mt-8 max-w-32 rotate-[45deg] xl:ml-auto xl:max-w-40 xl:-translate-x-8 xl:translate-y-4 xl:rotate-0"
           />
         </div>
-        <div className="absolute -bottom-16 left-0 md:bottom-14 md:left-1/4">
-          <div className="relative -top-3 left-10">
-            <h1 className="text-xl font-semibold">TRACTION</h1>
-            <p className="text-xs">
-              The shoe has good traction <br /> and doesn't slip easily.
-            </p>
-          </div>
+        <div className="absolute right-0 top-0 max-w-[200px] md:-top-20 xl:-right-60 xl:-top-10 xl:max-w-sm">
           <img
-            src="https://s3-alpha-sig.figma.com/img/78a9/c0c5/2ce5e670a97cf917d2b87894a3dc5326?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZwQJOkcUhHwI4YmAnI0BbeMlcB3GLS-xkVdY5YfpCOZfclLf44eSwx7UGXz4nqFl~d6hO~0pEAxTHfXyy9OPyvaIN6grEhRidMAO9OfdZrmssMf5pgNvFf5EAyma~X31HzkL8PXzOfXiL9Tk5Z6rrRXBGerNnc1RDPdUam~Z1qkMnothyudtPWMLLsBBUnT8LsocPWrbMw0pIwak16apTWaquFanPh34T8dJnqsspLrHPl1HBVqdcOtLVld21NCpy4uMkLtTpIXF4t3qRXedou0gEPBRdIW8fo4UeeedXxwrHy687cJV19wYqWiUk2sqr~Bz0XNMrC6VK4Y2icCydg__"
+            src={arrowImg2}
             alt=""
-            className="absolute -right-28 -top-14 w-28"
+            className="media540:max-w-36 media540:translate-y-60 media440:translate-y-56 max-w-28 translate-y-44 rotate-[125deg] md:max-w-44 md:translate-y-80 xl:translate-x-0 xl:rotate-0"
           />
+          <h3 className="font-bold xl:text-3xl">THE Front</h3>
+          <p className="media540:text-[1rem] text-xs xl:text-lg">
+            The heel is well-built, has appropriate elevation and is not too
+            rigid.
+          </p>
+        </div>
+        <div className="absolute -bottom-20 ml-14 max-w-[200px] xl:max-w-sm">
+          <img
+            src={arrowImg3}
+            alt=""
+            className="ml-auto max-w-36 -translate-x-8 translate-y-4 md:max-w-40 md:-translate-x-8 md:translate-y-4"
+          />
+          <h3 className="font-bold xl:text-3xl">THE HEEL</h3>
+          <p className="media540:text-[1rem] text-xs xl:text-lg">
+            The heel is well-built, has appropriate elevation and is not too
+            rigid.
+          </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -6,7 +6,7 @@ export const NavBar = () => {
 
   console.log(isOpen);
   return (
-    <header className="relative z-50 mx-4 flex text-white md:mx-14">
+    <header className="section-container fixed left-[50%] z-10 mx-auto flex w-full -translate-x-[50%] px-4 text-white backdrop-blur-sm">
       <nav className="flex h-full w-full items-center justify-between">
         <div className="relative">
           <img
@@ -19,7 +19,7 @@ export const NavBar = () => {
         <div
           className={`fixed right-4 top-4 ${isOpen ? "block" : "hidden"} h-72 w-56 rounded-md bg-gray-400 bg-opacity-55 md:static md:block md:h-auto md:w-auto md:bg-transparent`}
         >
-          <ul className="flex flex-col gap-8 p-4 font-semibold md:flex-row md:items-center md:justify-between md:gap-14 md:p-0">
+          <ul className="flex flex-col gap-8 p-4 text-[1rem] font-bold md:flex-row md:items-center md:justify-between md:gap-14 md:p-0 lg:text-2xl">
             <li>Home</li>
             <li>How it Works?</li>
             <li>Testimonials</li>
