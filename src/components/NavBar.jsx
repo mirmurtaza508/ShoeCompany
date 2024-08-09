@@ -19,11 +19,22 @@ export const NavBar = () => {
         <div
           className={`fixed right-4 top-4 ${isOpen ? "block" : "hidden"} h-72 w-56 rounded-md bg-gray-400 bg-opacity-55 md:static md:block md:h-auto md:w-auto md:bg-transparent`}
         >
-          <ul className="flex flex-col gap-8 p-4 text-[1rem] font-bold md:flex-row md:items-center md:justify-between md:gap-14 md:p-0 lg:text-2xl">
-            <li>Home</li>
-            <li>How it Works?</li>
-            <li>Testimonials</li>
-            <li>Contact Us</li>
+          <ul className="flex flex-col gap-8 p-4 text-[1rem] font-bold md:flex-row md:items-center md:justify-between md:gap-10 md:p-0 lg:text-2xl">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#how-it-works">How it Works?</a>
+            </li>
+            <li>
+              <a href="#about-us">About Us</a>
+            </li>
+            <li>
+              <a href="#testimonials">Testimonials</a>
+            </li>
+            <li>
+              <a href="#contact-us">Contact Us</a>
+            </li>
           </ul>
         </div>
         <div className="mt-6 flex items-center justify-center md:hidden">

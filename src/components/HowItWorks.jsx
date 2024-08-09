@@ -5,7 +5,10 @@ import arrowImg2 from "../assets/arrow-2.png";
 import arrowImg3 from "../assets/arrow-3.png";
 const HowItWorks = () => {
   return (
-    <section className="section-container w-full bg-black px-12 py-20 pb-24 text-white">
+    <section
+      id="how-it-works"
+      className="section-container w-full bg-black px-12 py-20 pb-24 text-white"
+    >
       <h1 className="mx-auto mb-12 p-4 text-center text-2xl font-semibold md:w-126 md:text-4xl">
         Have they finally made the perfect workout shoe?
       </h1>
@@ -45,7 +48,7 @@ const HowItWorks = () => {
             alt=""
             className="ml-auto max-w-28 -translate-x-8 translate-y-4 media560:max-w-36 md:max-w-40 md:-translate-x-8 md:translate-y-4 xl:-translate-x-20 xl:translate-y-12"
           />
-          <h3 className="font-bold media560:text-2xl">THE HEEL</h3>
+          <h3 className="font-bold media560:text-2xl xl:mt-4">THE HEEL</h3>
           <p className="text-xs media560:text-lg">
             The heel is well-built, has appropriate elevation and is not too
             rigid.
