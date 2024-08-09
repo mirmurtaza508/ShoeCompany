@@ -8,7 +8,10 @@ const About = () => {
         <h3 className="block text-center text-3xl font-bold md:hidden md:text-6xl">
           About Us!
         </h3>
-        <div className="w-full self-center bg-about-backImage bg-no-repeat">
+        <div
+          className="w-full self-center bg-no-repeat"
+          style={{ backgroundImage: `url('${aboutUsBackground}')` }}
+        >
           <img src={aboutUsImg} alt="" />
         </div>
         <div className="w-full space-y-8 text-[16px]">
