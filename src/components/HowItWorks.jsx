@@ -13,40 +13,40 @@ const HowItWorks = () => {
         <img
           src={shoeImg}
           alt=""
-          className="media560:p-12 w-full rotate-6 p-8 md:p-0 xl:rotate-0"
+          className="w-full rotate-6 p-8 media560:p-12 md:p-0 xl:rotate-0"
         />
-        <div className="media560:top-0 absolute top-20 max-w-[200px] xl:ml-14 xl:max-w-sm xl:-translate-x-full">
-          <h3 className="media560:text-2xl font-bold">THE HEEL</h3>
-          <p className="media560:text-lg text-xs">
+        <div className="absolute -top-2 mt-10 max-w-[200px] media560:top-0 media560:mt-0 xl:ml-14 xl:max-w-sm xl:-translate-x-full">
+          <h3 className="font-bold media560:text-2xl">THE HEEL</h3>
+          <p className="text-xs media560:text-lg">
             The heel is well-built, has appropriate elevation and is not too
             rigid.
           </p>
           <img
             src={arrowImg1}
             alt=""
-            className="media560:max-w-36 mt-4 max-w-32 rotate-[45deg] media440:mt-0 xl:ml-auto xl:max-w-40 xl:-translate-x-8 xl:translate-y-4 xl:rotate-0"
+            className="mt-4 max-w-32 rotate-[45deg] media440:mt-0 media560:max-w-36 xl:ml-auto xl:max-w-40 xl:-translate-x-8 xl:translate-y-4 xl:rotate-0"
           />
         </div>
-        <div className="media560:top-0 media560:-right-0 absolute -right-10 right-0 top-10 max-w-[200px] md:-top-20 xl:-right-60 xl:-top-10 xl:max-w-sm">
+        <div className="absolute -right-0 top-3 max-w-[200px] media560:top-0 md:-top-20 xl:-right-60 xl:-top-10 xl:max-w-sm">
           <img
             src={arrowImg2}
             alt=""
-            className="media560:max-w-36 media560:translate-y-64 max-w-28 translate-y-44 rotate-[125deg] media440:translate-y-56 md:max-w-44 md:translate-y-80 xl:ml-0 xl:-translate-x-32 xl:translate-y-16 xl:rotate-0"
+            className="media440:translate-y-54 max-w-28 translate-y-44 rotate-[125deg] media560:max-w-36 media560:translate-y-64 md:max-w-44 md:translate-y-80 xl:ml-0 xl:-translate-x-32 xl:translate-y-16 xl:rotate-0"
           />
-          <h3 className="media560:text-2xl font-bold">THE Front</h3>
-          <p className="media560:text-lg text-xs">
+          <h3 className="font-bold media560:text-2xl">THE Front</h3>
+          <p className="text-xs media560:text-lg">
             The heel is well-built, has appropriate elevation and is not too
             rigid.
           </p>
         </div>
-        <div className="absolute -bottom-14 ml-14 max-w-[200px] xl:-bottom-20 xl:max-w-sm">
+        <div className="absolute -bottom-10 max-w-[200px] md:-bottom-20 xl:-bottom-20 xl:max-w-sm">
           <img
             src={arrowImg3}
             alt=""
-            className="media560:max-w-36 ml-auto max-w-28 -translate-x-8 translate-y-4 md:max-w-40 md:-translate-x-8 md:translate-y-4 xl:-translate-x-20 xl:translate-y-12"
+            className="ml-auto max-w-28 -translate-x-8 translate-y-4 media560:max-w-36 md:max-w-40 md:-translate-x-8 md:translate-y-4 xl:-translate-x-20 xl:translate-y-12"
           />
-          <h3 className="media560:text-2xl font-bold">THE HEEL</h3>
-          <p className="media560:text-lg text-xs">
+          <h3 className="font-bold media560:text-2xl">THE HEEL</h3>
+          <p className="text-xs media560:text-lg">
             The heel is well-built, has appropriate elevation and is not too
             rigid.
           </p>
